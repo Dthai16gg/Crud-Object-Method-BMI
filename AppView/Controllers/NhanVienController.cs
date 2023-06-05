@@ -62,7 +62,7 @@ public class NhanVienController : Controller
         if (ModelState.IsValid)
         {
             var url =
-                $"https://localhost:7195/api/NhanVien/edit/{nhanvien.Id}?name={nhanvien.Name}&age={nhanvien.Age}&role={nhanvien.Age}&email={nhanvien.Email}&luong={nhanvien.Luong}&status={nhanvien.Status}";
+                $"https://localhost:7195/api/NhanVien/edit/{nhanvien.Id}?name={nhanvien.Name}&age={nhanvien.Age}&role={nhanvien.Role}&email={nhanvien.Email}&luong={nhanvien.Luong}&status={nhanvien.Status}";
             var response = await _client.PutAsync(url, null);
             if (response.IsSuccessStatusCode) return RedirectToAction("Show");
         }
