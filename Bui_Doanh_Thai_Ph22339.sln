@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppData", "AppData\AppData.csproj", "{F921881E-E000-4F2C-9665-1B3754FC1972}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppView", "AppView\AppView.csproj", "{FF74DACB-8F01-4713-948A-1F825B0C73AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppAPI", "AppAPI\AppAPI.csproj", "{30551C64-956C-47DC-9265-3128B58D4C8C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F921881E-E000-4F2C-9665-1B3754FC1972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F921881E-E000-4F2C-9665-1B3754FC1972}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F921881E-E000-4F2C-9665-1B3754FC1972}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F921881E-E000-4F2C-9665-1B3754FC1972}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF74DACB-8F01-4713-948A-1F825B0C73AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF74DACB-8F01-4713-948A-1F825B0C73AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF74DACB-8F01-4713-948A-1F825B0C73AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF74DACB-8F01-4713-948A-1F825B0C73AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30551C64-956C-47DC-9265-3128B58D4C8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30551C64-956C-47DC-9265-3128B58D4C8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30551C64-956C-47DC-9265-3128B58D4C8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30551C64-956C-47DC-9265-3128B58D4C8C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

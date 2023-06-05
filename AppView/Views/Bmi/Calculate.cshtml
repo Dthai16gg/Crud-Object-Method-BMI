@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "title";
+    var result = Convert.ToDouble(ViewBag.Bmi);
+    Layout = "_Layout";
+}
+<form asp-action="Calculate">
+    <label>Enter Weight</label>
+    <input name="weight" class="form-control-sm" placeholder="Enter KG"/>
+    <br/>
+    <label class="mt-4">Enter Height</label>
+    <input name="height" class="form-control-sm" placeholder="Enter Meter"/>
+    <br/>
+    <input type="submit" value="Calculate" class="btn btn-primary mt-4"/>
+    <hr/>
+</form>
+<div>
+    <h1>RESULT</h1>
+    @if (result > 0)
+    {
+        <p>Your BMI is: @result</p>
+    }
+</div>
